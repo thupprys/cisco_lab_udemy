@@ -1,0 +1,10 @@
+Switch>
+Switch>
+Switch>en
+Switch>enable 
+Switch#config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#hos
+Switch(config)#hostname SWA
+SWA(config)#exit
+SWA#
