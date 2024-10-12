@@ -1,10 +1,10 @@
-Switch>
-Switch>
-Switch>en
-Switch>enable 
-Switch#config t
+
+SWA>en
+SWA#conf t
 Enter configuration commands, one per line.  End with CNTL/Z.
-Switch(config)#hos
-Switch(config)#hostname SWA
-SWA(config)#exit
-SWA#
+SWA(config)#int vlan 1
+SWA(config-if)#ip add 192.168.0.1 255.255.255.0
+SWA(config-if)#no sh
+
+SWA(config-if)#
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
