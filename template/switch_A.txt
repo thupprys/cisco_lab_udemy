@@ -1,0 +1,10 @@
+
+SWA>en
+SWA#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+SWA(config)#int vlan 1
+SWA(config-if)#ip add 192.168.0.1 255.255.255.0
+SWA(config-if)#no sh
+
+SWA(config-if)#
+%LINK-5-CHANGED: Interface Vlan1, changed state to up
